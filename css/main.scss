@@ -1,7 +1,6 @@
 @import "partials/_fonts";
 @import "partials/_functions";
 @import "partials/_variables";
-// @import "partials/_animations";
 @import "partials/_mixins";
 
 /* ==========================================================================
@@ -89,7 +88,7 @@ textarea {
 
 /*general industry practice*/
 body{
-  font-family: Arial, sans-serif;
+  font-family: $body-font, sans-serif;
 }
 
 /*Make sure all images don't break out of their containers*/
@@ -131,7 +130,7 @@ header{
 
 body{
   background-color: $bg-color;
-  font-family: $body-font;
+  font-family: $body-font, sans-serif;
 }
 
 .container{ // took this out of the helper for more use
@@ -275,12 +274,14 @@ nav{
   // background: $top-color;
   // padding: 10px;
   ul{
+    // font-family: $body-font, sans-serif;
     padding: 10px;
     margin:0;
     li{
       display: block;
       float: left;
       padding-right: 10px;
+      font-family: $body-font, sans-serif;
       a{
         display: block;
         text-decoration: none;
