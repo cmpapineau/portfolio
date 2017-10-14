@@ -1,0 +1,475 @@
+@import "partials/_fonts";
+@import "partials/_functions";
+@import "partials/_variables";
+// @import "partials/_animations";
+@import "partials/_mixins";
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* related to hi-lighted text in browser*/
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+  *{
+  box-sizing: border-box;
+}
+
+/*general industry practice*/
+body{
+  font-family: Arial, sans-serif;
+}
+
+/*Make sure all images don't break out of their containers*/
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*FOOTER STAY DOWN
+
+.content-wrapper{
+  min-height: 80vh;
+}
+
+/*Convenient text centering class*/
+.text-center{
+  text-align: center;
+}
+
+/*For block elements*/
+.center-block{
+  display: block;
+  margin: auto;
+}
+
+/*
+  If you want your block element to have it centered you will need a max-width to center it
+ */
+
+header{
+  display: block;
+  margin: auto;
+}
+/* HOUSEKEEPING ENDS HERE. NOW WE ARE ON PAGE SPECIFIC STYLES */
+
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Questrial', sans-serif;
+
+body{
+  background-color: $bg-color;
+  font-family: $body-font;
+}
+
+.container{ // took this out of the helper for more use
+  max-width: 1200px;
+  margin: 2rem auto auto auto;
+  // padding: 20px; // this was making the space around the image
+  border-radius: 2rem;
+  background: white;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg-bricks-strip.jpg);
+  background-color: $main-color;
+    h1{
+      font-family: $h1-font;
+      color: white;
+      font-size: $h1-font-size;
+      // using the calc-rem function above to get a 48px equivalent
+      margin: 0 0 0 .5rem;
+      padding: .5rem;
+      text-shadow: 15px 15px 0px $nav-hvr;
+      // font-family: 'Lato', sans-serif;
+      img{
+        margin-right: calc-rem(20);
+        max-width: 3rem;
+      }
+    } // close h1
+}
+
+// CSS TRANSITION PANEL IN FROM RIGHT
+.eyes{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bio-panel { // starting position
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: $bottom-color;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 3s ease;
+  opacity: .9;
+}
+
+.eyes:hover .bio-panel {
+  width: 100%;
+  left: 0;
+}
+
+.cue-hover{
+  position: absolute;
+  color: white;
+  font-size: calc-rem(72);
+  top: 25%;
+  left: 5%;
+}
+
+.prod-cue-hover{
+  position: absolute;
+  color: $main-color;
+  font-size: calc-rem(72);
+  top: 25%;
+  left: 5%;
+}
+
+.look{
+  position: absolute;
+  color: white;
+  font-size: calc-rem(38);
+  top: 40%;
+  left: 4%;
+}
+// space means element inside element
+// > means imediate children inside - no space is an element with 2 classes or ids
+// .class.class = target element with both the classes
+
+.prod-look{
+  position: absolute;
+  color: $main-color;
+  font-size: calc-rem(38);
+  top: 40%;
+  left: 4%;
+}
+
+.text {
+  // white-space: nowrap;
+  margin-left: calc-rem(140);
+  color: white;
+  font-size: calc-rem(18);
+  position: absolute;
+  width: 300px;
+  // height: 80vh;
+  // overflow: hidden;
+  line-height: calc-rem(36); // centers only if you have 1 item on 1 line
+  top: 12%;
+  // left: 6%;
+}
+
+.prod-text {
+  color: white;
+  font-size: calc-rem(18);
+  position: absolute;
+  line-height: calc-rem(243); // centers only if you have 1 item on 1 line
+  left: 30%;
+}
+
+.text-size{
+  width: 900px; // changes the overall width
+  height: 6rem;
+}
+
+// start with a variable to do a boolean with. Just controlled by coder.
+$switch-colours: true; // this is what gets changed.
+
+@if $switch-colours == true {
+
+  @include normal-state; // put all the @if code in the mixin
+
+} @else {
+
+  @include switch-state;  // put all the @if code in the mixin
+
+} // closed
+
+nav{
+  max-width: 350px;
+  margin: auto;
+  height: 120px;
+  // background: $top-color;
+  // padding: 10px;
+  ul{
+    padding: 10px;
+    margin:0;
+    li{
+      display: block;
+      float: left;
+      padding-right: 10px;
+      a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: calc-rem(40);
+        .fa{ // this is hiding the icon on non-hover
+          display: none;
+          }
+        } // close a
+      &.home{ // &.home is like adding on stuff to a w/class home
+        a{ // anchors should be made block inside of inline block of li to style
+          background: url(../img/home.png) no-repeat;
+          @include menu;
+          // width: 100px;
+          // height: 100px;
+          // background-color: $main-color;
+          // border-radius: 50%;
+        }
+      }
+      &.modules{
+        a{
+          background: url(../img/modules.png) no-repeat;
+          @include menu;
+          // width: 100px;
+          // height: 100px;
+          // background-color: $main-color;
+          // border-radius: 50%;
+        }
+      }
+      &.production{
+        a{
+          background: url(../img/production.png) no-repeat;
+          @include menu;
+          // width: 100px;
+          // height: 100px;
+          // background-color: $main-color;
+          // border-radius: 50%;
+        }
+      }
+    } // close li
+  } // close ul
+} // close nav
+
+footer.upper{
+  background: url(../img/bg-bricks-strip.jpg);
+  color: #fff;
+  padding: 1.2rem;
+  height: calc-rem(80);
+  background-color: $main-color;
+}
+
+footer ul{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+footer li{
+  display: inline-block;
+  font-size: calc-rem(20);
+  padding: 0 calc-rem(50);
+  // height: 20px;
+  margin-top: calc-rem(10);
+}
+
+footer a{
+  // padding-top: calc-rem(0);
+  text-decoration: none;
+  color: #fff;
+  // font-size: calc-rem(20);
+  // padding: 0 calc-rem(50);
+}
+
+// #social-nav > ul{
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// #social-nav > ul > li{
+//   display: inline-block;
+// }
+//
+// #social-nav > ul > li > a{
+//   display: block;
+//   background: #000;
+//   color: white;
+//   text-decoration: none;
+//   padding: 1.2rem;
+//   margin: .6rem;
+// }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}

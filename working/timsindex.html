@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en"><!-- for browsers that don't have js enabled. Checks and replaces if they do hae javascript -->
+<!-- make sure you add the lang content en or whatever -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>All About HTML5 Boilerplate</title>
+        <meta name="description" content="This website is made with html5 boilerplate">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="hello, world, html5 boilerplate"><!-- keywords can be useful if used correcty. Every key word should also be used in your content, otherwise, you will be downgraded -->
+        <meta name="author" content="Caroline Papineau"><!-- author is to list the person who wrote the content on the page. -->
+        <!-- Tells browser if there are no settings for media queries, how to scale the website to fit the user screen -->
+
+<!-- SEO IMPORTANT -->
+        <!-- meta tags are for social media as well as SEO. Specifies the image to be used with a post.  -->
+        <!-- if you don't include these, you are overlooking a huge component of SEO/marketing -->
+
+<!-- BEGIN FACEBOOK TAGS -->
+        <!-- Facebook Open Graph Tags. Need a Facebook@ id from Facebook's development site -->
+        <!-- Your unique Facebook ID -->
+      <meta property="fb:app_id" content="2345239485739485239">
+      <!-- to create a Facebook app ID you need to go to Facebook's developer site, create an account and create a new application  https:developers.facebook.com-->
+      <!-- your website URL -->
+      <meta property="og:url" content="http://website.com">
+      <!-- content type: website app, etc. -->
+      <meta property="og:type" content="website">
+      <!-- title content is same as title -->
+      <meta property="og:title" content="All About HTML5 Boilerplate">
+      <!-- same as description -->
+      <meta property="og:description" content="This website is made with html5 boilerplate">
+      <!-- most IMPORTANT, Preview Image. Take a screenshot of website homepage for a preview image IMPORTANT. MUST BE AN ABSOLUTE LINK.  -->
+      <meta property="og:image" content="http://website.com/img/preview">
+      <!-- to test your open graph tags you need to use Facebook's debugger -->
+      <!-- http://developers.facebook.com/tools/debug -->
+      <!-- go enter your clients address and scrape website for open graph tags and refresh it's tags. If you don't do it after you put the tags in, they will not work -->
+      <!-- end facebook tags -->
+
+<!-- START TWITTER -->
+      <!-- Twitter cards tags. Makes links to the site look like cards -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="All About HTML5 Boilerplate">
+      <!-- ATOM use meta-enter for tag --><meta name="twitter:description" content="This website is made with html5 boilerplate">
+      <!-- IMPORTANT. MUST BE AN ABSOLUTE LINK. IMAGE that will show up in Twitter Cards. -->
+      <meta name="image" content="http://website.com/img/preview">
+<!-- ENDS TWITTER TAGS -->
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- you have to link to the favicon. Shows up in the browser tab. You should create your own favicon. Create a png and upload it to a favicon generator site. eg. http://favicon-generator.org -->
+        <link rel="shortcut icon" href="favicon.ico">
+
+<!-- download and use fontawesome.io -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+  <header>
+    <div  class="container">
+      <h1 class="text-center"><span class="fa fa-home"></span>Header text</h1>
+      </div>
+  </header>
+
+        <!-- Add your site or application content here -->
+        <div class="content-wrapper">
+  <p>Hello world! This is HTML5 Boilerplate.</p>
+        </div>
+
+
+
+
+<footer id="main-footer">
+  <div class="container text-center">
+      <nav id="social-nav">
+        <ul>
+          <li><a href="http://facebook.com" target="_blank"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="http://twitter.com" target="_blank"><span class="fa fa-twitter"></span></a></li>
+          <li><a href="http://instagram.com" target="_blank"><span class="fa fa-instagram"></span></a></li>
+          <li><a href="http://github.com" target="_blank"><span class="fa fa-github"></span></a></li>
+        </ul>
+      </nav>
+          <p><small>This site is &copy; 2017 you</small></p>
+    </div><!-- close container -->
+</footer>
+
+<!-- MORE IMPORTANT TO JAVASCRIPT LINK TO BE AT THE BOTTOM BECAUSE OF THE WAY IT WORKS. You want the whole site to be loaded before the script starts doing stuff. -->
+<!-- script tags should come before the closing body tags so that the HTML loads first. -->
+<!-- THIRD PARTY LIBRARIES COMES FIRST AND THE CUSTOM JS FILES COME LAST -->
+
+<!-- COMES FIRST -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+        <!-- here is the access to the jquery library already in your code -->
+        <!-- makes jscript easier to write -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- this links to a local copy of jquery included with boilerplate -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+
+        <!-- For jquery plugins - we do not need it currently -->
+        <script src="js/plugins.js"></script>
+
+        <!-- Here is our CUSTOM Javascript file -->
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- This is created by Google Analytics when you get a Google App ID -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>

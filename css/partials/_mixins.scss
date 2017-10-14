@@ -1,0 +1,45 @@
+@mixin normal-state {
+  .top{
+    background-color: $top-color;
+    height: 3rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+  .bottom{
+    background-color: $bottom-color;
+    height: 3rem;
+    border-radius:  0 0 2rem 2rem;
+  }
+} // defines end of mixin
+
+//switch my top and bottom colours.
+@mixin switch-state {
+  .top{
+    background-color: $bottom-color;
+    height: 3rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+  .bottom{
+    background-color: $top-color;
+    height: 3rem;
+    border-radius:  0 0 2rem 2rem;
+  }
+} // end of switch mixin
+
+// the below mixin is to keep the redundant code for the menu items out of the main scss
+@mixin menu {
+width: 100px;
+height: 100px;
+background-color: $main-color;
+box-shadow: 2px 2px 4px black;
+border-radius: 50%;
+line-height: 100px; // This is the key to keeping the vertical centering
+// I know I made the a 100px so line-height is also 100px
+// color: white;
+// font-size: rem-calc(48);
+  &:hover {
+    background-color: $nav-hvr;
+    .fa{
+      display: inline-block;
+      }
+  }
+}

@@ -1,0 +1,7 @@
+@function calc-rem($size) { // functions always require parameters
+  $rem-size: $size / 16; // making a variable called $rem-size with a division function
+  // if we define a variable in a function, the variable only exists within the function
+@return #{$rem-size}rem; // to use the @function, we need an @return
+}
+// the whole point of this function is to be able to type a pixel value and it does all the calculations for you.
+// the # means interpolate the value with rem at the end.

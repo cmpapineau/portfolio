@@ -1,0 +1,704 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Book
+FamilyName:Avenir
+StyleName:Book
+MenuName:Avenir Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Book
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:72
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BookOblique
+FamilyName:Avenir
+StyleName:Book Oblique
+MenuName:Avenir Book
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Book Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:372
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Black
+FamilyName:Avenir
+StyleName:Black
+MenuName:Avenir Black
+StyleBits:2
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Avenir Black
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:672
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BlackOblique
+FamilyName:Avenir
+StyleName:Black Oblique
+MenuName:Avenir Black Oblique
+StyleBits:3
+WeightClass:800
+WidthClass:5
+AngleClass:1
+FullName:Avenir Black Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:956
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Heavy
+FamilyName:Avenir
+StyleName:Heavy
+MenuName:Avenir Heavy
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Avenir Heavy
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1240
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-HeavyOblique
+FamilyName:Avenir
+StyleName:Heavy Oblique
+MenuName:Avenir Heavy
+StyleBits:3
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Avenir Heavy Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1508
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Light
+FamilyName:Avenir
+StyleName:Light
+MenuName:Avenir Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Avenir Light
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1808
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-LightOblique
+FamilyName:Avenir
+StyleName:Light Oblique
+MenuName:Avenir Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Avenir Light Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2108
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Medium
+FamilyName:Avenir
+StyleName:Medium
+MenuName:Avenir Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir Medium
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2408
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-MediumOblique
+FamilyName:Avenir
+StyleName:Medium Oblique
+MenuName:Avenir Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Avenir Medium Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2692
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Oblique
+FamilyName:Avenir
+StyleName:Oblique
+MenuName:Avenir
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2992
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Roman
+FamilyName:Avenir
+StyleName:Roman
+MenuName:Avenir
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Roman
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:3292
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410288794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Chalkduster
+FamilyName:Chalkduster
+StyleName:Regular
+MenuName:Chalkduster
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Chalkduster
+WritingScript:Roman
+OutlineFileName:\Chalkduster.ttf
+DataFormat:sfntData
+FileLength:483652
+FileModTime:1410288803
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-Heavy
+FamilyName:Futura Std
+StyleName:Heavy
+MenuName:Futura Std Medium
+StyleBits:2
+WeightClass:650
+WidthClass:5
+AngleClass:0
+FullName:Futura Std Heavy
+WritingScript:Roman
+OutlineFileName:\FuturaStd-Heavy.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27772
+FileModTime:1187763192
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-Light
+FamilyName:Futura Std
+StyleName:Light
+MenuName:Futura Std Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Futura Std Light
+WritingScript:Roman
+OutlineFileName:\FuturaStd-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27568
+FileModTime:1187763192
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans
+FamilyName:Gill Sans
+StyleName:Regular
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:60
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-UltraBold
+FamilyName:Gill Sans
+StyleName:UltraBold
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:1000
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans UltraBold
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:408
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-SemiBoldItalic
+FamilyName:Gill Sans
+StyleName:SemiBold Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:600
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans SemiBold Italic
+FamilyNameNative:
+StyleNameNative:SemiBold Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\GillSans.ttc
+TTCOffset:708
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-SemiBold
+FamilyName:Gill Sans
+StyleName:SemiBold
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans SemiBold
+FamilyNameNative:
+StyleNameNative:SemiBold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\GillSans.ttc
+TTCOffset:976
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-LightItalic
+FamilyName:Gill Sans
+StyleName:Light Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Light Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1244
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Light
+FamilyName:Gill Sans
+StyleName:Light
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans Light
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1576
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Italic
+FamilyName:Gill Sans
+StyleName:Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1892
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-BoldItalic
+FamilyName:Gill Sans
+StyleName:Bold Italic
+MenuName:Gill Sans
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Bold Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:2224
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Bold
+FamilyName:Gill Sans
+StyleName:Bold
+MenuName:Gill Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans Bold
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:2556
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ITCKabelStd-Bold
+FamilyName:ITC Kabel Std
+StyleName:Bold
+MenuName:ITC Kabel Std Medium
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:ITC Kabel Std Bold
+WritingScript:Roman
+OutlineFileName:\ITCKabelStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28660
+FileModTime:1187763226
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ITCKabelStd-Book
+FamilyName:ITC Kabel Std
+StyleName:Book
+MenuName:ITC Kabel Std Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ITC Kabel Std Book
+WritingScript:Roman
+OutlineFileName:\ITCKabelStd-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28540
+FileModTime:1187763226
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MarkerFelt-Thin
+FamilyName:Marker Felt
+StyleName:Thin
+MenuName:Marker Felt
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Marker Felt Thin
+WritingScript:Roman
+OutlineFileName:\MarkerFelt.ttc
+TTCOffset:32
+DataFormat:sfntData
+FileLength:621152
+FileModTime:1410288788
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MarkerFelt-Wide
+FamilyName:Marker Felt
+StyleName:Wide
+MenuName:Marker Felt
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Marker Felt Wide
+WritingScript:Roman
+OutlineFileName:\MarkerFelt.ttc
+TTCOffset:332
+DataFormat:sfntData
+FileLength:621152
+FileModTime:1410288788
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1469401133
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SavoyeLetPlain
+FamilyName:Savoye LET
+StyleName:Plain
+MenuName:Savoye LET
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Savoye LET Plain:1.0
+WritingScript:Roman
+OutlineFileName:\Savoye LET.ttc
+TTCOffset:32
+DataFormat:sfntData
+FileLength:101512
+FileModTime:1410288804
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:.SavoyeLetPlainCC
+FamilyName:.Savoye LET CC.
+StyleName:Plain
+MenuName:.Savoye LET CC.
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Savoye LET Plain CC.:1.0
+WritingScript:Roman
+OutlineFileName:\Savoye LET.ttc
+TTCOffset:220
+DataFormat:sfntData
+FileLength:101512
+FileModTime:1410288804
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UniversLTStd-Ex
+FamilyName:Univers LT Std
+StyleName:53 Extended
+MenuName:Univers LT Std 53 Extended
+StyleBits:0
+WeightClass:400
+WidthClass:7
+AngleClass:0
+FullName:Univers LT Std 53 Extended
+WritingScript:Roman
+OutlineFileName:\UniversLTStd-Ex.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31732
+FileModTime:1187763426
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UniversLTStd-ThinUltraCn
+FamilyName:Univers LT Std
+StyleName:39 Thin Ultra Condensed
+MenuName:Univers LT Std 39 Thin UltraCn
+StyleBits:0
+WeightClass:250
+WidthClass:1
+AngleClass:0
+FullName:Univers LT Std 39 Thin Ultra Condensed
+WritingScript:Roman
+OutlineFileName:\UniversLTStd-ThinUltraCn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29716
+FileModTime:1187763426
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UniversLTStd
+FamilyName:Univers LT Std
+StyleName:55 Roman
+MenuName:Univers LT Std 55
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Univers LT Std 55 Roman
+WritingScript:Roman
+OutlineFileName:\UniversLTStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35100
+FileModTime:1187763426
+DesignSize:120
+%EndFont
+
