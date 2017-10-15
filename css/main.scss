@@ -141,14 +141,16 @@ header{
   padding: 0;
   background: url(../img/bg-bricks-strip.jpg);
   background-color: $main-color;
+  line-height: 105px;
     h1{
       font-family: $h1-font;
       color: white;
       font-size: $h1-font-size;
-      // using the calc-rem function above to get a 48px equivalent
+      // line-height: 105px;
       margin: 0 0 0 .5rem;
-      padding: .5rem;
-      text-shadow: 15px 15px 0px $nav-hvr;
+      // padding: .5rem;
+      padding: 0;
+      text-shadow: 10px 10px 0px $h1-shadow;
       // font-family: 'Lato', sans-serif;
       img{
         margin-right: calc-rem(20);
@@ -223,31 +225,31 @@ header{
 }
 
 .text {
-  // white-space: nowrap;
-  margin-left: calc-rem(140);
   color: white;
-  font-size: calc-rem(18);
+  font-size: calc-rem(16);
   position: absolute;
-  width: 300px;
-  // height: 80vh;
-  // overflow: hidden;
+  width: 90%;
   line-height: calc-rem(36); // centers only if you have 1 item on 1 line
-  top: 12%;
-  // left: 6%;
+  top: 5%;
+  left: 6%;
 }
 
 .prod-text {
+  white-space: nowrap;
   color: white;
-  font-size: calc-rem(18);
+  font-size: calc-rem(16);
   position: absolute;
   line-height: calc-rem(243); // centers only if you have 1 item on 1 line
-  left: 30%;
+  // padding-top: 5%;
+  // padding-left: 25%;
+  left: 6%;
 }
 
 .text-size{
   width: 900px; // changes the overall width
   height: 6rem;
 }
+// END OF THE bio-panel SLIDE SECTION
 
 // start with a variable to do a boolean with. Just controlled by coder.
 $switch-colours: true; // this is what gets changed.
@@ -279,9 +281,15 @@ nav{
         text-align: center;
         color: white;
         font-size: calc-rem(40);
-        .fa{ // this is hiding the icon on non-hover
-          display: none;
-          } // close .fa
+        transition: 1.5s; // NEW
+          &:active{ //ALL NEW
+            transform: rotate(360deg);/* 360 degree plus more for full circle*/
+            -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+          }
+          .fa{ // this is hiding the icon on non-hover
+            display: none;
+            } // close .fa
         } // close a
       &.home{ // &.home is like adding on stuff to a w/class home
         a{ // anchors should be made block inside of inline block of li to style
