@@ -163,6 +163,7 @@ header{
 .eyes{
   position: relative;
   width: 100%;
+  background: $accessible-bg;
 }
 
 .image {
@@ -382,6 +383,19 @@ nav{
         color: $nav-hvr;
       }//close h3
 }// close main
+
+// GOOGLE CALENDAR TEST
+.calendar {
+  max-width: 800px;
+  margin: auto;
+}
+
+@media screen and (max-width: 566px){
+  .calendar {
+    width: 90%;
+    margin: auto;
+  }
+}
 
 footer.upper{
   background: url(../img/bg-bricks-strip.jpg);

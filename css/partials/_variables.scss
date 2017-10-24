@@ -1,10 +1,12 @@
-$bg-color: #99f8b4; // light green
+$bg-color: #cff7bb; // more accessible background color
+ // original bg color #99f8b4;
 $main-color: #945f89; // main purple from image
-$bottom-color: #00a99f; // bottom section from rough draft
+$bottom-color: #01625d; // bottom section from rough draft original #00a99f
 $nav-hvr: #9d1033; // deep maroon red
 $h1-shadow: rgba(157, 16, 51, .5);
 $top-color: #525151; // dark grey
 $gold: #ffd700;
+$accessible-bg: #8b26a6; // new bg color to fix main image
 
 $h1-font: 'danielregular'; // create a variable for the font
 $h1-font-size: calc-rem(84); // create a variable for font size too.
