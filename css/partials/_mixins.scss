@@ -43,3 +43,13 @@ line-height: 100px; // This is the key to keeping the vertical centering
       }
   }
 }
+
+@mixin project-title{
+    color: $gold;
+    background-color: $main-color;
+    padding: .5rem;
+    font-size: calc-rem(28);
+    font-family: $body-font;
+    text-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}

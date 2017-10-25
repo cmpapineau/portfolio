@@ -363,26 +363,53 @@ nav{
 
 // ================= production section ==============
 
-.main{
+.main{ //1184px
   margin-left: 1rem;
+  margin-bottom: 1rem;
+  a{
+    text-decoration: none;
+    color: $nav-hvr;
+  }
+  a:hover{
+    border-top: 2px solid black;
+  }
+  .project{
+    width: 50%;
+    float: left;
+  }
     h2{
       color: $main-color;
       font-family: $h1-font;
       font-size: calc-rem(36);
-        span{
-          color: $gold;
-          background-color: $main-color;
-          padding: .5rem;
-          font-size: calc-rem(28);
-          font-family: $body-font;
-          text-shadow: 2px 2px 3px black;
-          border-radius: 10px;
-        }//close span
+        //span{
+        //  @include project-title;
+        //}
       }//close h2
-      h3{
+    h3{
         color: $nav-hvr;
+        margin-top: 0;
+        margin-bottom: 0;
       }//close h3
+    p{
+      margin-top: 0;
+    }
+    span{
+      font-weight: bold;
+    }
+    .stages{
+      width:90%;
+      margin: auto;
+      border-top: 2px solid $main-color;
+      .column{
+        width:30%;
+        float: left;
+        margin: 0 1em;
+        padding-left: 1em;
+        background-color: #ccc;
+      }
+    }
 }// close main
+
 
 // GOOGLE CALENDAR TEST
 .calendar {
