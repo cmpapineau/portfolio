@@ -282,12 +282,13 @@ nav{
         text-align: center;
         color: white;
         font-size: calc-rem(40);
-        transition: 1.5s; // NEW
-          &:active{ //ALL NEW
-            transform: rotate(360deg);/* 360 degree plus more for full circle*/
+        transition: 1.5s;
+        /* Commenting out the extra spinning nav as it's overkill witht the middle spinning
+        &:active{ ALL NEW
+            transform: rotate(360deg); 360 degree plus more for full circle
             -webkit-transform: rotate(360deg);
             -ms-transform: rotate(360deg);
-          }
+          } */
           .fa{ // this is hiding the icon on non-hover
             display: none;
             } // close .fa
