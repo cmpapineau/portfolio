@@ -1,0 +1,527 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+/* a rem is the root em. Every time you use rem it will be the initial em size - 16px */
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+/* related to hi-lighted text in browser*/
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*Housekeeping*/
+/*HTML5 Boilerplate tries to do housekeeping by giving us a lot of pre-made code that developers use over and over again, HOWEVER, there are still some commonly used pieces of code which we should add to our project to make our lives easier.*/
+
+  *{
+  box-sizing: border-box;
+}
+
+/*general industry practice*/
+body{
+  font-family: Arial, sans-serif;
+}
+
+/*Make sure all images don't break out of their containers*/
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*FOOTER STAY DOWN
+Make the footer go to the bottom of the page, regardless of screen size.*/
+
+.content-wrapper{
+  min-height: 80vh;
+}
+
+/*General container class - use on any HTML element to make a constrained container.
+use 1200px which is the same as Bootstrap.*/
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/*Convenient text centering class*/
+.text-center{
+  text-align: center;
+}
+
+/*For block elements*/
+.center-block{
+  display: block;
+  margin: auto;
+}
+
+/*
+  If you want your block element to have it centered you will need a max-width to center it
+ */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+  display: block;
+  margin: auto;
+}
+/* HOUSEKEEPING ENDS HERE. NOW WE ARE ON PAGE SPECIFIC STYLES */
+
+
+    /*font-family: 'Raleway', sans-serif;
+
+    font-family: 'Righteous', cursive;*/
+/* ================================================================
+
+CLIMBING GYM STUFF 
+
+==================================================================*/
+/* for faster reference:
+
+Bright Green #50DA85 rgb(80, 218, 113)
+Dark Blue rgb(7, 23, 74) #071648
+Blue rgb(8, 37, 106) #08256a
+Bright blue rgb(43, 49, 211) #2b95d3
+Magenta (216, 37, 106) #D8256A
+Orange rgb(184, 52, 10) ??
+Grey rgb(170, 170, 168) #AAAAA8
+Yellow rgb(216, 171, 86) #D8AB56
+*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-size: cover;	
+	background-color: rgb(170, 170, 168);
+	font-family: 'Raleway', sans-serif;
+}
+
+.image{
+	background: url(../img/topmain.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+	box-shadow: 2px 2px 4px black;
+	z-index: 1;
+}
+
+header{
+	position: relative;
+	background-color: rgb(8, 37, 106);
+	height: 70px;
+}
+
+header p{
+	position: absolute;
+	color: white;
+	font-size: .8rem;
+	top: 2.2rem;
+	left: 13rem;
+	text-transform: uppercase;
+	letter-spacing: 10px; 
+}
+
+.contact-info p{
+	color: white;
+	font-size: .8rem;
+	padding: .5rem;
+}
+
+.address p{
+	padding: 0;
+}
+
+.contact-info{
+	width: 15rem;
+	padding-left: 20px;
+	background-color: rgba(8, 37, 106,.5);
+}
+
+.contact-info a{
+	text-decoration: none;
+	color: white;
+	font-size: .8rem;
+}
+	
+h1{
+	float: left;
+	width: 200px;
+	height: 70px;
+	margin: 0 0 0 20px;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	font-size: 96px;
+	padding-left: 20px;
+	padding-top: 150px;
+	margin: 0;
+	line-height: .9;
+	text-shadow: 2px 2px 4px #071648;
+	opacity: .8;
+}
+
+nav{
+	text-align: center;
+	background-color: #D8256A;
+	height: 55px;
+}
+
+nav li{
+	background-color: rgb(8, 37, 106);
+	border-radius: 0 0 15px 15px;
+	display: inline-block;
+	padding: .8rem 2rem;
+	-webkit-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;	
+}
+
+nav a{
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+nav a:hover {
+	color: #08256a;
+	border-top: 3px dotted white;
+	padding-top: .3rem;
+}
+
+nav li:hover {
+	background-color: #AAAAA8;
+}
+
+.wrapper{
+	position: relative;
+	max-width: 800px;
+	margin: auto;
+	z-index: -1;
+}
+
+main{
+	display: block; /*for ie purposes*/
+}
+
+#para1{
+	background-image: url(../img/indoor-climbing-gym-4-1030x686.jpg);
+	min-height: 500px; 
+	/* This is what is giving the separation between content*/
+}
+	
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main{
+	color: white;
+}
+
+.content1{
+	max-width: 800px;
+	background-color: #b8340a;
+	padding: 0px 40px;
+}
+
+.content1 h2, p{ /* in between the pieces of content */
+padding: 10px 0;
+}
+
+.content2{
+	max-width: 800px;
+	background-color: rgb(7, 23, 74);
+	padding: 20px 40px;
+}
+/*STYLING MY UNORDERED LIST WITH ALTERNATING COLOUR*/
+.content2 ul{
+	padding:20px;
+	background-color: white;
+	color: #071648;
+	border-radius: 2rem;
+}
+
+.content2 li{
+	font-size: .8rem;
+	list-style: none;
+	margin: 5px 0;
+	padding: .4rem;
+	border-radius: 2rem;
+}
+
+.content2 li:nth-child(odd){
+	background-color: rgba(216, 171, 86, .5);
+}
+
+#para2{
+	background-image: url(../img/seattle.jpg);
+	min-height: 500px;
+}
+
+/*CONTROLLING CONTENT on HOME PAGE ================================ */
+.content-home1{
+	max-width: 800px;
+	background-color: rgb(7, 23, 74);
+	padding: 20px 40px;
+}
+
+.content-home2{
+	color: rgb(7, 23, 74);
+	font-size: 1.2em;
+	max-width: 800px;
+	background-color: #D8AB56;
+	padding: 20px 40px;
+}
+
+/*STYLING THE BOTTOM IMAGES ========================================== */
+
+.two-img img{
+	box-shadow: 2px 2px 3px rgb(7, 23, 74);
+}
+.two-img h2{
+	text-align:center;
+	font-family: 'Righteous', cursive;
+	text-transform:lowercase;
+	letter-spacing: .2em;
+	font-size: 1.2em;
+}
+
+.kids, .oldguy{
+
+	width: 45%;
+	float: left;
+}
+
+.kids{
+	margin-right: 25px;
+}
+
+/*END CONTENT on HOME PAGE ================================ */
+#sideimage{
+	position: absolute;
+	left:-150px;
+}
+
+
+.content-pricing{
+	max-width: 800px;
+	color: #071648;
+	padding: 0px 40px;
+	background-color: #50da85;
+}
+
+.content-pricing h2{
+	padding-top: 1.5em;
+}
+
+/*STYLING MY PRICING SECTION */
+
+.pricing{
+	max-width: 800px;
+	background-color: #D8256A;
+	padding: 20px 40px;
+}
+
+.pricing dl{
+	padding:20px;
+	background-color: white;
+	color: #071648;
+	border-radius: 2rem;
+}
+
+.pricing dt{
+	list-style: none;
+	margin: 5px 0;
+	padding: .4rem;
+	background-color: rgba(216, 171, 86, .5);
+}
+
+.pricing dd{
+	font-size: .8rem;
+	padding: 0 1em 0 1em;
+}
+.pricing dl > dt{
+	border-radius: .5rem;
+}
+
+/* END STYLING MY PRICING LIST */
+
+/*STYLING MY FIRST TIMERS CONTENT1 */
+
+.content1-new{
+	background-color: #2b95d3;
+	padding: 20px 40px;
+}
+
+/* STYLING WAIVER SECTION */
+.content-waiver{
+	max-width: 800px;
+	background-color: rgb(184, 52, 10);
+	color: white;
+	padding: 20px 40px 0px;
+	border: 2px solid black;
+}
+
+.content-waiver h2{
+	font-size: 1.1em;
+}
+
+footer{
+	background-color: #D8256A;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer img{
+	width: 100px;
+	margin-right: 20px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	padding-left: 2rem;
+}
+
+#form{
+/*	position: relative;*/
+	max-width: 800px;
+	margin: auto;
+	color: white;
+	background-color: black;
+	padding: 20px 40px;
+}
+
+#form form .your-name, .your-email{
+	display: inline-block;
+	padding: 10px;
+}
+
+#form span{
+	font-size: 14px;
+	font-style: italic;
+}
+
+#form button{
+	width: 90px;
+	margin-left: 20px;
+}
+
+#form input{
+	width: 200px;
+}
+
+.clear{
+	clear: both;
+}

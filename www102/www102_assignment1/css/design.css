@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*Housekeeping*/
+/*HTML5 Boilerplate tries to do housekeeping by giving us a lot of pre-made code that developers use over and over again, HOWEVER, there are still some commonly used pieces of code which we should add to our project to make our lives easier.*/
+
+  *{
+  box-sizing: border-box;
+}
+
+/*general industry practice*/
+body{
+  font-family: Arial, sans-serif;
+}
+
+/*Make sure all images don't break out of their containers*/
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*FOOTER STAY DOWN
+Make the footer go to the bottom of the page, regardless of screen size.*/
+
+.content-wrapper{
+  min-height: 80vh;
+}
+
+/*General container class - use on any HTML element to make a constrained container.
+use 1200px which is the same as Bootstrap.*/
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/*Convenient text centering class*/
+.text-center{
+  text-align: center;
+}
+
+/*For block elements*/
+.center-block{
+  display: block;
+  margin: auto;
+}
+
+/*
+  If you want your block element to have it centered you will need a max-width to center it
+ */
+
+body{
+	margin: 0;
+	padding: 0;
+	background:#333;
+}
+
+header{
+  display: block;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*HOUSEKEEPING ENDS HERE*/
+
+.my-choices{
+  display: block;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.wrapper{
+	max-width: 960px;
+	margin: auto;
+	background: #FFC;
+	padding: 2em;
+	border-radius: 1em;
+}
+
+h4{
+	margin: .5rem 0 0 0;
+}
+
+p{
+	margin: .2rem 0 0 0;
+}
+
+#colour-palette ul{
+	padding: 0;
+}
+
+#colour-palette li{
+	padding: 1em 0;
+	font-size: 1rem;
+	text-transform: uppercase;
+	list-style-type: none;
+}
+
+#colour-palette .left{
+	width: 35%;
+	float: left;
+}
+
+#colour-palette .right{
+	width: 65%;
+	float: left;
+}
+
+dl{
+	padding-top: 1em;
+	font-size: .8rem;
+	text-transform: none;
+}
+
+dd{
+	padding-bottom: 1em;
+}
+
+.palette {
+	width: 10rem;
+	height: 5rem;
+	margin-left: 2rem;
+}
+
+#color1{
+	background-color: #071648;
+}
+
+#color2{
+	background-color: #08256a;
+}
+
+#color3{
+	background-color: #b8340a;
+}
+
+#color4{
+	background-color: #AAAAA8;
+}
+
+#color5{
+	background-color: #2b95d3;
+}
+
+#color6{
+	background-color: #D8256A;
+}
+
+#color7{
+	background-color: #50DA85;
+}
+
+.sketch{
+	width: 30%;	
+}
+
+.clear{
+	clear: both;
+}
+
+/*table{
+	box-sizing:border-box;
+	max-width: 90%;
+	margin: auto;
+	border: none;
+	background: white;
+	margin: 1em 0 0 1em;
+	border:ridge;
+}
+
+table th{
+	background-color: #036;
+	color: #fff;
+	padding: 1em;
+	border: none;
+}
+
+table td{
+	border: none;
+	padding: 0 1em 0 1em;
+}*/
