@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A compository of all things colour from The Museum of Colour, Shape and Style.">
+        <title>Welcome to The Museum of Colour, Shape and Style</title>
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa:700%7CPoppins:300" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <!-- I discovered that the fonts, when styled em, strong, etc looked odd in Safari, but when I checked at home on the mac they looked fine, so I think this is just a Safari PC issue -->
+<div id="main-container">
+	<header id="top">
+		<h1>The Museum of Colour, <br>Shape and Style</h1>
+		<p>We&apos;re committed to bringing colour and shape to the masses!</p>
+		<p class="colour">1234 Rainbow Blvd. Toronto, Ontario M2J 1P3</p>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="explore.html">Explore</a></li>
+				<li><a href="visit.html">Visit</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+	<div id="small-container"><!-- Start of container div, To set a smaller area here. -->
+        <main>
+            <h2>Our History</h2>
+            <p><em class="colour">The Museum of Colour, Shape and Style</em> opened in August 2014. Located at 1234 Rainbow Blvd. in Toronto's downtown core, we have established ourselves as <strong>Canada&apos;s first and foremost</strong> archive of all things colourful. Shades and tints abound in our galleries, our colour palette consistently impresses and our monochromatic galleria soothes the senses. See our amazing <a href="http://worqx.com/color/color_wheel.htm" title="Color Wheel by worqx.com" target="blank" rel="external">colour wheel</a> in the rotunda. Our primary and secondary colours are second to none! Visit our Tertiary Garden and relax in our forest of analogous colours and vector shapes.</p>
+            
+            <blockquote cite="https://www.doctorprimary.org/">Let's face it, things are seldom ever black and white, but isn't that the way we like it?<br> That is why, despite being legally blind, I became involved with The Museum of Colour, Shape and Style, eventually becoming its president.<div><!-- Just to style this section in the blockquote -->
+			<span class="colour">Legally Blind, Not Colour Blind. </span><strong>Dr. Primary, </strong>President of The Museum of Colour</div></blockquote>
+
+            <p>The Museum is essentially the result of president Dr. Primary&apos;s belief that he could make people more aware of the colours around us. In August 2013, he left his position as the senior photoshop curator at the Institute for Colour and dedicated himself to turning his vision into reality.</p>
+            
+            <div id="center"><img class="center" src="img/prism.jpg" alt="prism" width="600" height="300" title="prism">
+            <p class="caption">The physics of colour from the perspective of light through a prism.</p></div>
+        </main>
+        
+        <section>
+            <div class="columns"></div><!--trying to put a purely graphic element in here -->
+            <h3 id="spaceabove">Museum Timeline:</h3><!--trying to adjust space for the graphic without changing all the other h3s I have -->
+            <div class="columns"></div><!--trying to put a purely graphic element in here -->
+                <ol>
+                    <li>
+                        <em>2014</em>
+                          <ul>
+                            <li><span class="colour">August: </span>Museum opens to colourful reviews and applause, an indication of the shape of things to come!</li>
+                            
+                          </ul>
+                    </li>
+                    
+                    <li>
+                        <em>2015</em>
+                          <ul>
+                            <li><span class="colour">January: </span>Approval of expansion plan is formally announced.</li>
+                            <li><span class="colour">August: </span>British curator Hugh Tertiary is hired. Expansion of the colour exhibits area continues.</li> 
+                          </ul>
+                    </li>
+                    
+                    <li>
+                        <em>2016</em>
+                          <ul>
+                            <li><span class="colour">June: </span><em>Special exhibit opens: </em>A square peg in a round hole - hidden shapes all around us.</li>
+                            <li><span class="colour">November 13: </span><em>Our flagship exhibit: </em>If Photoshop is so great, why are the default swatches Black and White? <em>receives international acclaim!</em></li> 
+                          </ul>
+                    </li>
+                    
+                    <li>
+                        <em>2017</em>
+                          <ul>
+                            <li><span class="colour">August 19: </span>Gala opening of our new Hue/Saturation and Brightness caf&eacute;.</li> 
+                          </ul>
+                    </li>
+            </ol>
+        </section>
+        
+        <p><a href="#top" class="colour">To Top</a></p>
+	</div><!-- End of small-container div, for styling purposes only. -->
+<footer>
+    <p><small>&copy; Copyright 2017 </small><a href="http://webmaster.senecacollege.ca/" title="Seneca Web Master Program" target="blank" rel="external">Web Master Program </a>
+        <a href="mailto:info@museumofcss.com"><strong><em>Email Us</em></strong></a></p>
+</footer>
+         </div><!-- End of main-container div -->
+</body>
+</html>
+    <!-- Here are some useful facts about WAI. With the advent of the Web Accessibility Initiative (WAI), the W3C, with the help of some other interested parties have created Web Content Accessibility Guidelines (WCAG). The reason for this is to create agreed-upon standards for accessibility online. Basically, if it’s on the web, it should be available for everyone, including those with disabilities. When accessibility practices are used, people with disabilities can still access content on the web. For example, a visually impaired person can use a screen reader that reads out loud the website content. When the WCAG guidelines are applied, not only does a screen reader have content to read, it even knows the order and importance of the sections of a website to relay to the user.
+
+The three levels of accessibility are called: 
+i 	A (single A)
+ii 	AA (double-A) and 
+iii AAA (triple-A)
+
+In case you are not sure, A is the least accessible and AAA is the most accessible. Essentially, the more accessible the website, the better.
+    This very general understanding of WAI Aria Roles comes from a combination of research from W3C schools, Wikipedia and my previous AODA tutorials on making accessible PDFs.
+
+Complimentary Section
+In addition to the three levels of accessibility, there are also four principles about accessibility I will explain in my own words:
+
+Perceivable
+	If it’s on the page, all users should know it. 
+Example: Alt text should be used for any non-text component so that deaf people will know what audio component is missing and blind people (with the help of screen readers) will hear an audible description of an image on the page.
+
+Operable
+	A person should be able to navigate through a web page. Navigation should work from a standard keyboard, not only by touch screens, or a mouse. How would a blind person know where to click eh? Also, try not to use flashing lights, or effects that could cause a seizure. Remember BLINK? I think all of us early web users are still trying to forget that one.
+
+Understandable
+	The information on the site should be clear to the user, including how to navigate around.
+
+Robust
+	This sounds like a good wine, but it actually means that your website should be up to date with knowledge of the latest accessible technology.
+
+Plagiarism checkers used: Grammarly and Small SEO Tools. -->

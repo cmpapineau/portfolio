@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/*colours from board image:
+reddish brown rgb(108, 80, 56) #6c5038 
+greenish rgb(128, 124, 99) #807c63
+bluish rgb(188, 201, 218) #bcc9da
+*/
+
+@font-face {
+    font-family: 'arbutusregular';
+    src: url('../fonts/arbutus-regular-webfont.woff2') format('woff2'),
+         url('../fontsarbutus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-image: url(../img/wood060.jpg);
+}
+
+#wrapper{
+	position: relative;
+	max-width: 800px;
+	margin: 200px auto auto auto;
+	background-color: antiquewhite;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#hat{
+	background-image: url(../img/cowboy-hat.svg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: -145px;
+	left: -125px;
+}
+	
+header{
+	text-align: center;
+}
+
+header p{
+	padding: 0;
+	font-style: italic;
+}
+
+h1, h2 {
+	font-family: 'arbutusregular';
+}
+
+h1{
+	font-size: 72px;
+	color: rgb(94,54,2);
+	text-shadow: 4px 4px 10px white;
+	padding: 0;
+	text-transform:uppercase;
+	margin: 50px 0px 0 0;
+	text-align: center;
+}
+
+h1 span{
+	display: block;
+	text-transform: lowercase;
+	transform:rotate(-15deg);
+	font-size: 30px;
+}
+
+h2{
+	color: white;
+	background-image: url(../img/wood115darker.jpg);
+	padding-left: 50px;
+}
+
+nav ul{
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin: 15px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+/* PAGES NAV ITEMS --------------------------------*/
+#navpages{
+	font-family: 'arbutusregular';
+	font-size: 20px;
+}
+#navpages li{
+	line-height: 100px;
+	width: 150px;
+	height: 60px;	
+	border-radius: 10px;
+}
+
+#navpages li:hover{
+	background-image: url(../img/yeehaw.png);
+	background-position:top;
+	box-shadow: 2px 2px 3px black;
+}
+
+#navpages a{
+	color: rgb(128, 124, 99);
+	padding: 30px 0 0 0;
+}
+
+/* MAIN SECTION */
+main{
+	display: block;
+	text-align: center;
+}
+
+/* STYLE THE OTHER NAVIGATION */
+.interior{
+	text-align: center;
+}
+
+.interior a{
+	color: #6c5038;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-top: 1px dotted rgb(128, 124, 99);
+	padding-top: 5px;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.interior a:hover {
+	color: #900;
+	font-weight: bold;
+	cursor: url('../img/cowboycursor.png'), auto;	
+}
+
+/* TRY OTHER BACKGROUND */
+img{
+	width: 200px;
+	padding: 50px;
+	height: auto;
+}
+
+img:hover{
+	background-image: url(../img/yeehawball.png);
+}
+
+article p{
+	float: left;
+	max-width: 50%;	
+}
+
+img{
+	border-radius: 150px;
+	box-shadow: 2px 2px 4px rgb(108, 80, 56);
+}
+	
+footer{
+	background-color: rgba(108,80,56,.70);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	margin: 20px auto auto auto;
+	max-width: 800px;
+	border-radius: 10px;
+}
+
+aside{
+	font-weight:bold;
+	font-size: 16px;
+	color: white;
+	background-image:url(../img/wood115.jpg);
+	max-width: 41%;
+	padding: 3px;
+	margin: 15px 50px 30px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px #6c5038 ;
+}
+
+footer small{
+	display: block;
+	text-align: center;
+}
+
+footer p{
+	text-align: center;
+}
+
+

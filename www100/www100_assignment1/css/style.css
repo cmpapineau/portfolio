@@ -1,0 +1,179 @@
+/* font-family: 'Aref Ruqaa', serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: .9em;
+	background-image: url(../img/museum-columns.jpg);
+	background-color: white;
+	margin: 0;
+	padding: 60px;
+}
+
+#main-container {
+	max-width: 960px;
+	margin: auto; /* This centers my container.  */
+	background-color: white;
+	padding: 10px;
+}
+
+#small-container {
+	margin: 50px;
+}
+
+.colour {
+	color: #C96476;
+/*	font-weight: bold; */
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Aref Ruqaa', serif;
+	font-size: 3em;
+	color: rgb(102, 0, 51);
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Aref Ruqaa', serif;
+    font-size: 2em;
+    color: darkgoldenrod;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#spaceafter {
+	margin: 0;
+}
+
+nav {
+	background-image: url(../img/rainbow.jpg);
+	margin: 0;
+}
+
+nav ul {
+    padding-left: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+main {
+	background-color: white;
+}
+
+main ul {
+    list-style: none;
+}
+
+main li {
+    color: black;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto; /* This is how I got it to adjust to the container size Woo Hoo! */
+}
+
+#center { /* made a div to style just my image and center it so it will be in a block element. */
+    text-align: center;
+}
+
+.center { /* made a div with a class to style multiple images and center them so they will be in a block element. */
+    text-align: center;
+}
+
+blockquote {
+	font-size: .83em;
+    border-left: solid .2em orange;
+    border-right: solid .2em orange;
+    padding: 10px 10px;
+    background-color: bisque;
+}
+
+.caption {
+    font-size: .7em;
+    color:darkmagenta;
+}
+
+cite {
+	padding-right: 20px;
+	color: rgb(102, 0, 51);
+}
+
+ol {
+	list-style: none;
+    padding-left: 5em;
+    padding-right: 10em;
+}
+
+ol ul {
+    color: black;
+    list-style: none;
+}
+
+ol em {
+    color: grey;
+}
+
+footer a {
+    text-decoration: underline;
+    font-size: .75em;
+    color: rgb(50, 155, 25);
+    display: inline-block;
+}
+
+/* ADDING A BACKGROUND IMAGE TO AN EMPTY DIV JUST FOR A GRAPHIC LOOK ------------------------------*/
+
+.columns {
+    background-image: url(../img/rainbow-columns.jpg);
+    padding: .5em 0;
+    width: 190px;
+}
+
+#spaceabove {    
+    margin: 0;
+}
+
+/* VISIT US DETAILS SECTION-----------------------------------------------*/
+
+h4 {
+    font-size: 1em;
+	margin-bottom: 0;
+	color: rgb(179, 102, 255);
+}
+
+.details p {
+	margin: 0;
+}
+
+#inset {
+    margin: 0 2em 0;
+    padding:0;
+}
+
+.left {
+	float: left;
+	padding-right: 15px;
+	width: 50%;
+}
+
+#clear {
+    clear: left;
+}
