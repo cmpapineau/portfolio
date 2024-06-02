@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url("../fonts/caviar_dreams_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caviar_dreamsregular';
+  src: url("../fonts/caviardreams-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'josefin_sansregular';
+  src: url("../fonts/josefinsans-regular-webfont.woff2") format("woff2"), url("../fonts/josefinsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'josefin_sanssemibold';
+  src: url("../fonts/josefinsans-semibold-webfont.woff2") format("woff2"), url("../fonts/josefinsans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #666;
+  background: #636363;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "josefin_sansregular", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #9d2225;
+  font-family: "caviar_dreamsbold", sans-serif;
+}
+
+h4 {
+  font-family: "caviar_dreamsbold", sans-serif;
+  color: #1c589b;
+}
+
+#main {
+  background: #ffedcd;
+  padding: 0;
+  display: block;
+  padding: 1rem;
+}
+
+#main #empty {
+  margin-top: 1rem;
+}
+
+#main h3 {
+  font-family: "josefin_sanssemibold", sans-serif;
+  color: #9d2225;
+  font-size: 1rem;
+}
+
+#main #bio {
+  padding: 0 3rem;
+}
+
+#main #lindapic {
+  border-radius: 20px 0 0 0;
+  box-shadow: 3px 3px 5px black;
+  width: 80%;
+}
+
+#shake-img img {
+  border-radius: 10px;
+  border: 1px solid #9d2225;
+}
+
+/* =========================================================================
+TESTIMONIALS
+============================================================================*/
+.container article {
+  margin: 2rem 5rem;
+  border-top: 1px solid #9d2225;
+}
+
+.container article p {
+  margin-bottom: .5rem;
+}
+
+.container article p span {
+  padding: .5rem 0;
+  font-style: italic;
+  margin-right: 3rem;
+  font-size: .9rem;
+}
+
+.title {
+  color: white;
+  background-color: #636363;
+  margin: 2rem auto auto auto;
+  padding: .5rem 0;
+  border-radius: .5rem;
+  width: 70%;
+  border: 1px solid #9d2225;
+}
+
+/* close title */
+#header {
+  padding: 0;
+  background: #9d2225;
+}
+
+header {
+  padding-bottom: 1rem;
+}
+
+header .container {
+  padding: 0;
+  margin-left: -1rem;
+  height: 2rem;
+}
+
+header #logo {
+  background-color: white;
+  border-radius: 0 0 .5rem .5rem;
+  width: 30%;
+  height: auto;
+  padding-top: 1.2rem;
+  margin-left: -1rem;
+}
+
+#top-shade {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.bg-dark {
+  background-color: #9d2225 !important;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: white;
+}
+
+nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav a:hover {
+  color: #999;
+  font-weight: bold;
+  border-bottom: .1rem solid white;
+}
+
+nav .white {
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 .5rem;
+  float: left;
+}
+
+/* close nav */
+.navbar-toggler .fa {
+  color: white;
+  font-size: 2rem;
+}
+
+/* ==========================================================================
+lectures
+========================================================================== */
+#lecture-cols {
+  margin-top: 1rem;
+}
+
+.design-title {
+  border-top: 5px solid #9d2225;
+  padding: .5rem 0;
+}
+
+.design-title span {
+  font-size: 2rem;
+}
+
+.lecture-img {
+  border-radius: 10px;
+  border: 1px solid #9d2225;
+  margin-bottom: 1rem;
+}
+
+.fa-video-camera {
+  background-color: #9d2225;
+  color: white;
+  text-align: right;
+  font-size: 2rem;
+  padding: .6rem;
+  border-radius: 100%;
+}
+
+#tinpan h3 span {
+  font-size: 1.7rem;
+}
+
+/* ==========================================================================
+Videos
+========================================================================== */
+#videos .fa-video-camera {
+  margin-right: .5rem;
+}
+
+.videoclip {
+  margin: 5% 0;
+}
+
+.replace-video a {
+  color: #9d2225;
+}
+
+/* ==========================================================================
+Faves
+========================================================================== */
+.faves {
+  margin-top: 2rem;
+}
+
+.faves a {
+  color: #9d2225;
+}
+
+.faves h2 {
+  font-size: 1.5rem;
+}
+
+#faves i {
+  color: #9d2225;
+}
+
+#fave-sec {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #424242;
+  color: white;
+  padding: .2rem 0;
+  line-height: 2rem;
+  border-top: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+footer small {
+  font-family: "josefin_sansregular", sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+}
+
+footer a {
+  font-family: "josefin_sansregular", sans-serif;
+  display: inline-block;
+  color: white;
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+  line-height: 2rem;
+}
+
+@media (max-width: 576px) {
+  .design-title {
+    border-top: 0px solid #9d2225;
+    padding: .5rem 0;
+  }
+  .design-title span {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  iframe {
+    margin: 2%;
+    width: 90%;
+    height: auto;
+    border: 0;
+  }
+  .faves {
+    margin-top: 0;
+  }
+  .faves a {
+    color: #9d2225;
+    font-size: .8rem;
+  }
+  #bio h1, #bio h2, #bio h3, #bio h4, #bio p {
+    text-align: left;
+  }
+  #bio h4 {
+    font-size: .9rem;
+  }
+  #bio p {
+    font-size: .8rem;
+  }
+  .replace-video .fa {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  /* close h2 */
+  .title {
+    width: 40%;
+  }
+  .title i {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  nav {
+    margin-top: -3rem;
+  }
+}
+
+/* close media query */

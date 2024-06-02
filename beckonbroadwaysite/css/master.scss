@@ -1,0 +1,357 @@
+@import "partials/_fonts";
+@import "partials/_variables";
+
+body{
+  color: #666;
+  background: $bgmain;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: $body;
+}
+h1, h2, h3,{
+  color: $head;
+  font-family: $header;
+}
+
+h4{
+    font-family: $header;
+    color: $subhead;
+}
+
+#main{
+  background: $bgcontainer;
+  padding: 0;
+  display: block;
+  padding: 1rem;
+  #empty{
+    margin-top: 1rem;
+  }
+  h3{
+    font-family: $bodybold;
+    color: $head;
+    font-size: 1rem;
+  }
+  #bio{
+    padding: 0 3rem;
+  }
+  #lindapic{
+    border-radius: 20px 0 0 0;
+    box-shadow: 3px 3px 5px black;
+    width: 80%;
+  }
+}
+
+#shake-img{
+    img{
+      border-radius: 10px;
+      border: 1px solid $head;
+    }
+  }
+
+/* =========================================================================
+TESTIMONIALS
+============================================================================*/
+
+.container article{
+  margin: 2rem 5rem;
+  border-top: 1px solid $hr;
+  p{
+    margin-bottom: .5rem;
+    span{
+      // border-top: 1px solid $dkgrey;
+      // border-bottom: 1px solid $dkgrey;
+      padding: .5rem 0;
+      font-style: italic;
+      margin-right: 3rem;
+      font-size: .9rem;
+    }
+  }
+
+}
+
+.title{
+  color: white;
+  background-color: $bgmain;
+  margin: 2rem auto auto auto;
+  padding: .5rem 0;
+  border-radius: .5rem;
+  width: 70%;
+  border: 1px solid $head;
+} /* close title */
+
+#header{
+  padding: 0;
+  background: $head;
+  // position: fixed;
+}
+
+header{
+  padding-bottom: 1rem;
+  .container{
+    padding: 0;
+    margin-left: -1rem;
+    height: 2rem;
+  }
+  #logo{
+    background-color: white;
+    border-radius: 0 0 .5rem .5rem;
+    width: 30%;
+    height: auto;
+    padding-top: 1.2rem;
+    margin-left: -1rem;
+  }
+}
+
+#top-shade{
+  border-bottom: 3px solid rgba(0,0,0,.3);
+}
+
+.bg-dark {
+    background-color: $head!important;
+}
+
+// #nav-container{
+//   max-width:
+// }
+
+nav{
+  float: right;
+  a{
+    color: white;
+  }
+  .nav-link{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  a:hover{
+    color: #999;
+    font-weight: bold;
+    border-bottom: .1rem solid white;
+  }
+  .white{
+    color: white;
+  }
+  li{
+    display: inline-block;
+    padding: 0 .5rem;
+    float: left;
+  }
+} /* close nav */
+
+.navbar-toggler{
+  .fa{
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+/* ==========================================================================
+lectures
+========================================================================== */
+#lecture-cols{
+  margin-top: 1rem;
+}
+
+.design-title{
+  border-top: 5px solid $title;
+  // border-bottom: 10px solid $title;
+  padding:.5rem 0;
+  span{
+    font-size: 2rem;
+  }
+}
+
+.lecture-img{
+  border-radius: 10px;
+  border: 1px solid $head;
+  margin-bottom: 1rem;
+}
+
+.fa-video-camera{
+  background-color: $video;
+  color: white;
+  text-align: right;
+  font-size: 2rem;
+  padding: .6rem;
+  border-radius: 100%;
+}
+
+#tinpan{
+  h3{
+    span{
+        font-size: 1.7rem;
+    }
+  }
+
+}
+
+/* ==========================================================================
+Videos
+========================================================================== */
+
+#videos{
+  .fa-video-camera{
+    margin-right: .5rem;
+  }
+}
+
+.videoclip{
+  margin: 5% 0;
+  // iframe{
+  //   margin: 2%;
+  //   max-width: 90%;
+  //   height: auto;
+  //   border: 0;
+  // }
+}
+
+.replace-video{
+  a{
+    color: $head;
+  }
+}
+
+/* ==========================================================================
+Faves
+========================================================================== */
+
+.faves{
+  margin-top: 2rem;
+  a{
+    color: $head;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+}
+
+#faves{
+  i{
+    color: $head;
+  }
+}
+#fave-sec{
+  margin-bottom: 2rem;
+}
+
+// .trivia{
+//   width: 60%
+//   // height: auto;
+//   border: 1px solid $red;
+//   border-top: 1px solid $red;
+//   span{
+//     padding: 1rem 0;
+//     font-size: .8rem;
+//   }
+//   // background-image: url(../img/baroque-frame.svg) no-repeat;
+//   // height: 100%;
+// } // close trivia
+
+footer{
+  background-color: $footer;
+  color: white;
+  // margin-top: .5rem;
+  padding: .2rem 0;
+  line-height: 2rem;
+  border-top: 3px solid rgba(0,0,0,.3);
+  small{
+    font-family: $body;
+    font-size: 1rem;
+    display: inline-block;
+    // padding: 0 1rem;
+    color: white;
+    // line-height: 2rem;
+    // padding: 0 1rem;
+  }
+  a{
+    font-family: $body;
+    display: inline-block;
+    // padding: 0 1rem;
+    color: white;
+    line-height: 2rem;
+    padding: 0 1rem;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: white;
+    // padding: 0 1rem;
+    // border-bottom: 1px solid white;
+    line-height: 2rem;
+  }
+}
+
+// #footer{
+//
+// }
+// phones
+
+@media (max-width: 576px) {
+  .design-title{
+    border-top: 0px solid $title;
+    // border-bottom: 10px solid $title;
+    padding:.5rem 0;
+    span{
+      font-size: 2rem;
+    }
+  }
+
+} // close mobile
+
+@media screen and (max-width: 767px) {
+  iframe{
+    margin: 2%;
+    width: 90%;
+    height: auto;
+    border: 0;
+  }
+
+  .faves{
+    margin-top: 0;
+    a{
+      color: $head;
+      font-size: .8rem;
+    } // close .faves a
+  } // close .faves
+  #bio{
+    h1, h2, h3, h4, p {
+      text-align: left;
+    }
+    h4{
+      font-size: .9rem;
+    }
+    p{
+      font-size: .8rem;
+    }
+  }
+
+  .replace-video{
+    .fa{
+      font-size: 1rem;
+    }
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+      font-size: 1rem;
+  } /* close h2 */
+  .title{
+    width: 40%;
+    i{
+      font-size: .8rem;
+    }
+  }
+} // close mobile
+
+
+@media screen and (max-width: 991px){
+  nav{
+    margin-top: -3rem;
+  }
+}
+/* close media query */
